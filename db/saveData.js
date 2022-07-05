@@ -3,7 +3,7 @@ const fs = require("fs");
 const util = require("util");
 const asyncReadFile = util.promisify(fs.readFile);
 class Notes {
-    async retriveNotes() {
+    async retrieveNotes() {
         const parseData = []
         asyncReadFile ("db/db.json", "utf-8", (err, data) =>{
             if (err) {

@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const saveData = require('../db/saveData.js');
+const saveData = require('../db/saveData');
 
 router.get("/notes", function (req, res) {
     saveData
@@ -15,4 +15,4 @@ router.post("/notes", function(req, res) {
     .catch(err => res.status(500).json(err));
 });
 
-module.exports = router();
+module.exports = router;

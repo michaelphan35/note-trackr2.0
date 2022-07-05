@@ -8,15 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/miniature-eureka.git"
+    "url": "git+https://github.com/michaelphan35/note-trackr2.0.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/miniature-eureka/issues"
+    "url": "https://github.com/michaelphan35/note-trackr2.0/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/miniature-eureka#readme",
+  "homepage": "https://github.com/michaelphan35/note-trackr2.0#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.2"
   }
 }
