@@ -28,7 +28,7 @@ none
 no other contributers for this project.
 
 ## Screenshots
-![heroku screenshots](./media/heroku._ss.jpg?raw=true "Application Screenshot")
+![heroku screenshots](./media/heroku_ss.jpg?raw=true "Application Screenshot")
 
 ## Heroku:
 [Click to deploy app on heroku](https://note-trackr2.herokuapp.com)
