@@ -1,9 +1,9 @@
 const router = require("express").Router();
-const saveData = require('../db/saveData');
+const saveData = require('../db/dataAggregate.js');
 
 router.get("/notes", function (req, res) {
     saveData
-    .retrieveNotes()
+    .getNotes()
     .then(notes => res.json(notes))
     .catch(err => res.status(500).json(err));
 });
